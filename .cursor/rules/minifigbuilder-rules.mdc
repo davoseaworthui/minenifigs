@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: Rules for clean and scalable code generation
+
+---
+- Carefully analyze the requirements I have attached in the docs
+- Be descriptive in identifying the MVPs based off the prompt and docs
+- Use meaningful and relateable naming conventions
+- Functions should be refactored when it becomes to abstract, maybe allow 30-40 lines maximum.
+- Recheck generated code to ensure it aligns with the original intent.
+- Do not hardcode secrets. Use environment variables and .env files.
+- Leave TODO comments when improvements or refactors are needed.
+- Follow strict typescript rules based on the response of the API and with that the requirements entail
+- Prefer well-maintained, stable libraries and justify their use.
+- Run a diagnostic when new components, libraries are introduced.
+
+
+@prompt-rules-clean-architecture.mdc
